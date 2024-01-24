@@ -1,0 +1,12 @@
+.idea
+.vscode
+.pytest_cache/
+venv/
+/.tmp/
+
+*.pyc
+_pycache_
+*/.DS_Store
+.DS_Store
+.sqlite.db
+.env
