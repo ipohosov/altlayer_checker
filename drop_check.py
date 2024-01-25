@@ -13,12 +13,12 @@ def read_file():
 def get_drop_data(wallet_address) -> dict:
     response = None
     result_dict = []
-    url = "https://94c87e96-000a-4740-bc01-0ca9abbb7bca-stg-airdrop.alt.technology/"
+    url = "https://airdrop.altlayer.io/"
 
     payload = f'["{wallet_address}"]'
     headers = {
         'content-type': 'text/plain;charset=UTF-8',
-        'next-action': '67fc7bba70928774c5305f604afe585929202b77'
+        'next-action': '6817e8f24aae7e8aed1d5226e9b368ab8c1ded5d'
     }
     response_code = 0
     while response_code != 200:
